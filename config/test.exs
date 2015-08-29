@@ -18,3 +18,5 @@ config :hello_phoenix, HelloPhoenix.Repo,
   hostname: "localhost",
   database: "hello_phoenix_test",
   pool: Ecto.Adapters.SQL.Sandbox
+
+config :hound, driver: "phantomjs"
