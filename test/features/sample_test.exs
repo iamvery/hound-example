@@ -7,6 +7,7 @@ defmodule HelloPhoenix.SampleTest do
   # Start a Hound session
   hound_session
 
+  @tag :feature
   test "GET /" do
     navigate_to "/"
     assert page_source =~ "Welcome to Phoenix"
