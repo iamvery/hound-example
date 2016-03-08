@@ -1,3 +1,4 @@
+Application.ensure_all_started(:hound)
 ExUnit.configure(exclude: [feature: true])
 ExUnit.start
 
